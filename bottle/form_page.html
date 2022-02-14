@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>  </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mclds">
+        <meta name="description" content="">
+        <link rel="stylesheet" type="text/css" href="../partials/index.css" media="screen">
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="col1" style="flex-grow:1">
+            </div>
+            <div class="col2" style="flex-grow:9">
+                <form method="get" action="">
+                    <fieldset>
+                        <legend>SAMPLE FORM</legend>
+                        <ul>
+                            <li>First Name: <input name='first'>
+                            </li>
+                            <li>Last Name: <input name='last'>
+                            </li>
+                        </ul><input type='submit' value='Submit Form'>
+                    </fieldset>
+                </form>
+                <p>{{ message }}</p>
+            </div>
+            <div class="col3" style="flex-grow:1">
+            </div>
+        </div>
+    </body>
+    <?php require 'http://localhost/partials/footer.php'; ?>
+    </div> <!-- flex-container must close after the footer, or it won't stay in the bottom of the page -->
+</html>
+
